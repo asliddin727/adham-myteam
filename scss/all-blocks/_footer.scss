@@ -1,0 +1,126 @@
+.footer{
+    height: 196px;
+    background-color: $dark-green;
+    
+
+}
+
+.footer{
+    .container{
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        padding-top: 48px;
+        color:$white-color;
+    }
+}
+
+.footer__nav{
+    .f__nav__list{
+        display: flex;
+        align-items:center;
+        gap: 40px;
+        margin-top: 25px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+        .f__nav__item{
+            a{
+                color:$white-color;
+                transition: $btn-transition;
+
+            }
+        }
+        
+        .f__nav__item{
+            a:hover{
+                color:$light-color;
+                transition: $btn-transition;
+
+            }
+        }
+    }
+
+
+.footer__desc1{
+    font-size: 15px;
+    line-height: 25px;
+    color:#ffffff9c;
+}
+
+.footer__right{
+    .footer__path{
+        display: flex;
+        align-items:center;
+        gap: 10px;
+        margin-bottom: 51px;
+        justify-content: flex-end;
+    }
+
+    .footer__desc2{
+        font-size: 15px;
+        line-height: 25px;
+        color:#ffffff9c;
+
+    }
+}
+
+@media only screen and (max-width:768px){
+    .footer__right{
+        .footer__path{
+            display: flex;
+            align-items:center;
+            gap: 16px;
+            margin-bottom: 51px;
+            justify-content: flex-start;
+            float: left;
+            margin-left: -410px;
+            top: 214px;
+            margin-left: -436px;
+            position: absolute;
+        }
+    }
+
+    .footer{
+        height: 271px;
+        background-color: $dark-green;
+        position: relative;
+        
+    
+    }
+
+    .footer__logo{
+        margin-top: 28px;
+    }
+
+    .footer__desc1{
+        font-size: 15px;
+        line-height: 25px;
+        color:#ffffff9c;
+        position: absolute;
+        top: 84px;
+        right: 39px;
+        text-align: right;
+    }
+
+    .footer__desc2{
+        font-size: 15px;
+        line-height: 25px;
+        color:#ffffff9c;
+        margin-top: 167px;
+
+    }
+
+ 
+    .footer{
+        .container{
+            display: flex;
+           align-items:normal;
+        }
+    }
+}
+
+
+ 
+
+

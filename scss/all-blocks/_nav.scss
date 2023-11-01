@@ -1,0 +1,20 @@
+.nav>.nav__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__item>.nav__link{
+    color:$white-color;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight:600;
+    transition: $btn-transition;
+
+}
+
+.nav__item>.nav__link:hover{
+    color:$light-color;
+    transition: $btn-transition;
+}
+

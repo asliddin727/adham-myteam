@@ -1,0 +1,80 @@
+$button-width:153px;
+$button-height:48px;
+$button-border-radius:50px;
+$btn-border-size:2.5px;
+$btn-border-style:solid;
+$btn-active-style: 0.3;
+$btn-transition: all .3s ease;
+$btn-cursor-style:pointer;
+$btn-font-size:18px;
+$btn-line-height:28px;
+
+
+.header__btn{
+    width: $button-width;
+    height: $button-height;
+    border:$btn-border-size $btn-border-style $white-color;
+    border-radius:$button-border-radius;
+    background-color: $midnight-color;
+    color:$white-color;
+    font-size:$btn-font-size;
+    line-height:$btn-line-height;
+    transition: $btn-transition;
+
+}
+
+.header__btn:hover{
+    border-color: $white-color;
+    background-color: $white-color;
+    color:$dark-green;
+    transition: $btn-transition;
+    cursor: $btn-cursor-style;
+
+}
+
+.header__btn:active{
+    opacity: $btn-active-style;
+    transition: $btn-transition;
+
+}
+
+.ready__btn{
+    width: $button-width;
+    height: $button-height;
+    border:$btn-border-size $btn-border-style $sacramento-state-green;
+    border-radius:$button-border-radius;
+    color:$sacramento-state-green;
+    background-color: $light-color;
+    font-size:$btn-font-size;
+    line-height:$btn-line-height;
+    transition: $btn-transition;
+
+}
+
+.ready__btn:hover{
+    background-color: $sacramento-state-green;
+    color:$white-color;
+    border-color:$sacramento-state-green;
+    transition: $btn-transition;
+    cursor: $btn-cursor-style;
+
+
+}
+
+.ready__btn:active{
+    opacity: $btn-active-style;
+    transition: $btn-transition;
+}
+
+.contact__btn{
+    width: $button-width - 30px;
+    height: $button-height;
+    border:$btn-border-size $btn-border-style $white-color;
+    border-radius:$button-border-radius;
+    color:$deep-jungle-green;
+    font-size:$btn-font-size;
+    line-height:$btn-line-height;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 24px;
+}

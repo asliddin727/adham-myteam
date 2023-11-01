@@ -1,0 +1,51 @@
+$input-bg-color:$midnight-color;
+$input-border-bottom-size:2px;
+$input-border-bottom-style:solid;
+$input-border-bottom-color:#979797;
+$input-width:540px;
+$input-height:42px;
+$input-outline:none;
+$input-font-size:15px;
+$input-placeholder-padding-left:14px;
+$input-color:$white-color;
+$input-font-weight:bold;
+$input-transition: all .3s ease;
+
+.contact__input{
+    background-color: $input-bg-color;
+    border:none;
+    width: $input-width;
+    height: $input-height;
+    font-size: $input-font-size;
+    outline: $input-outline;
+    border-bottom: $input-border-bottom-size $input-border-bottom-style $input-border-bottom-color;
+    color:$input-color;
+    font-weight: $input-font-weight;
+    padding-bottom: 16px;
+    transition: $input-transition;
+}   
+
+.contact__input[placeholder]{
+    padding-left: $input-placeholder-padding-left;
+    font-size: 20px;   
+}
+
+.contact__input[placeholder]:active{
+    color:$light-color;
+}
+
+.contact__input:hover{
+    border-bottom-color:$rapture-blue ;
+    transition: $input-transition;
+
+
+}
+
+.contact__input:active{
+    border-bottom-color:$light-color ;
+}
+
+.contact__input__bottom[placeholder]{
+    padding-bottom: 58px;
+    padding-top: 15px;
+}

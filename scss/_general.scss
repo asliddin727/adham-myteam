@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  
+}
+
+
+body{
+    font-family: 'Livvic', sans-serif; 
+     
+}
+
+ol, li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color:#000;
+}

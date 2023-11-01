@@ -1,0 +1,132 @@
+#build{
+    margin-top: 265px;
+    background-color: $sacramento-state-green;
+    height: 684px;
+    position: relative;
+}
+
+
+#build{
+    .container{
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        padding-top: 140px;
+    }
+}
+
+.build__right{
+    display: flex;
+    align-items:center;
+    gap: 23px;
+}
+
+.build__left{
+    .build__span{
+        width: 56px;
+        height: 4px;
+        border-radius: 30px;
+        background-color: $light-color;
+        margin-bottom: 54px;
+    }
+}
+
+.build__left{
+    .build__h2{
+        width: 445px;
+        font-size: 48px;
+        line-height: 48px;
+        color:$white-color;
+
+    }
+}
+
+.build__right{
+    position: relative;
+    margin-top: 32px;
+}
+
+.build__right{
+    .img{
+        width: 56px;
+        height: 56px;
+        border-radius:100px;
+        background-color: $police-blue;
+        position: absolute;
+
+
+    }
+}
+
+.build__right__left{
+    .build__right__img{
+        position: relative;
+        top: -19px;
+        left: -15px;
+
+    }
+}
+
+.build__h3{
+    font-size: 18px;
+    line-height: 28px;
+    color:$light-color;
+    margin-bottom: 16px;
+}
+
+.build__desc{
+    font-size: 15px;
+    line-height: 25px;
+    color:$white-color;
+
+}
+
+#build{
+    .build__right__bottom__img{
+        position: absolute;
+        top: 439px;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width:768px){
+    
+#build{
+    .container{
+        display: flex;
+       flex-direction: column;
+        padding-top: 140px;
+    }
+}
+
+.build__left{
+    .build__h2{
+        width: 500px;
+        font-size: 32px;
+        line-height: 32px;
+        color:$white-color;
+        margin-bottom: 24px;
+
+    }
+}
+
+#build{
+    margin-top: 125px;
+    background-color: $sacramento-state-green;
+    height: 684px;
+    position: relative;
+}
+
+#build{
+    .build__right__bottom__img{
+        position: absolute;
+        top: 0px;
+        right: 0;
+    }
+}
+
+.build__left{
+    margin-top: -60px;
+
+}
+}
